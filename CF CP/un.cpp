@@ -1,0 +1,1 @@
+#include <bits/stdc++.h> using namespace std; int main() { int t; cin >> t; while (t–) { int n, k; cin >> n >> k; int mn = n; for (int i = 1; i <= n; i++) { int l = (i + k – 2) / k; int r = (n – i +
